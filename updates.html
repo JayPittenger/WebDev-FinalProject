@@ -1,0 +1,87 @@
+<!-- Jay Pittenger -->
+<!-- 5-1-2020 -->
+<!-- CS290 - Project -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jay's Virtual Reality - Updates</title>
+        <link rel="stylesheet" href="subpageStyles.css">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Jost:wght@300&&family=Jost:wght@700&display=swap" rel="stylesheet">
+        <!--Icons obtained by Fontawesome - open source icons. license is located in Content/fontawesome-->
+        <link rel="stylesheet" href="Content/fontawesome/css/all.css">
+    </head>
+    <body>
+        <!-- Horizontal Navigation bar-->
+        <ul id= "nav">
+            <li id="home"><a href="index.html"><i class="fas fa-vr-cardboard"></i> Home</a></li>
+            <div id="subpage">
+                <li><a class="active" href="updates.html"><i class="fas fa-quote-left"></i> Updates</a></li>
+                <li><a href="software.html"><i class="fas fa-sd-card"></i> Software</a></li>
+                <li><a href="resources.html"><i class="fas fa-thumbtack"></i> Resources</a></li>
+            </div>
+          </ul>
+        <h1 id="title"><i class="fas fa-quote-left"></i> Updates <i class="fas fa-quote-right"></i></h1>
+
+        <!--Scroll Box with status updates-->
+        <p id="scroll-comment">Scroll for previous updates</p>
+        <div id="scroll-box">
+            <p class="date">5/8/2020:</p>
+            <p>
+                This week I started with VR development in Unity! I was able to get the camera rig set up in Unity such that 6DOF motion is tracked in VR and the controllers are tracked as well.
+                Oculus provides an SDK for Unity which provides alot of prefab models and game objects that help you get set up in developing your VR application. I also followed a tutorial on 
+                learn.unity.com which teaches Unity VR fundamentals, and learned how to create teleportation in VR to allow for movement over the game scene. Exciting stuff! Next I plan to begin 
+                experiementing with writing my own scripts for game mechanics such as grabbing objects, or moving objects in VR space.
+            </p>
+            <p class="date">5/3/2020:</p>
+            <p>
+                I feel like I am beginning to make progress in learning Unity and scripting for game development in C#. My focus up to this point has been just learning the tools
+                as well as gaining my game development legs so to speak, just in the context of basic 3D model interaction in a traditional PC game sense. I will likely focus on this
+                for another week or so before diving into integrating VR SDKs such as Oculus and SteamVR into Unity. I am having a hard time focusing on the basics however, as I 
+                am itching to put the headset on and start experimenting with VR in Unity. I also would like to add that for the purpose of my goals for game development at this time,
+                and the scope of this website, I do not plan to dive into animation of 3D models or the creation of 3D assets on my own at this time. I plan to just use 3D assets provided
+                from tutorials as well as open source 3D assets through the Unity asset store.
+            </p>
+            <p class="date">5/2/2020:</p>
+            <p>
+                Today I set up something very exciting! Through third party software, The Oculus Quest headset is capable of running PCVR content wirelessly. To do this, 
+                I set up a second router and plugged this into my modem. Next, I connected an ethernet cable between my PC and the newly plugged in router. I also connected
+                to this router's wireless connection on my Quest. Then I opened the third party software, called Virtual Desktop, on my PC which allows the PC to 
+                be discoverable by the Oculus Quest when you run the Virtual Desktop app on the Quest on the same network (in my case, this is on the second router I mentioned). 
+                This combination allows the user to stream their desktop to the Queest which is a neat experience. However, what makes this setup extremely useful is that it 
+                allows you to run Oculus and SteamVR content wirelessly from your PC to your Quest heatset. I was quite impressed with the low latency from this setup. Even though 
+                there is noticable visual compression in comparison to using a wired connection, it is still a great configuration if you want to ditch the wire for alittle while!
+                Head over to the Software page of my website to find a link to the Virtual Desktop website. Alright, now to get back to work on learning game development :)
+            </p>
+            <p class="date">4/29/2020:</p>
+            <p>
+                Another day spent on the basics! I again focused on learning C# syntax. It seems that Unity scripting puts a significant focus on object oriented design
+                which makes it easy to reference various game objects and data from other scripts. I think one of the hardest parts will be learning the integration between 
+                the Unity UI and scripts. After working on game development foundational knowledge, I also focused on getting my USB drivers set up on my new PC so that the 
+                wired connection between my Oculus Quest and my PC was stable. 
+            </p>
+            <p class="date">4/28/2020:</p>
+            <p>
+                Today I installed the Unity 3D game development platform on my newly built PC and began learning C# syntax. I also focused on learning script integration 
+                between Visual Studio and Unity, and how to assign scripts to particular 3D objects in Unity. I found out that due to the COVID-19 pandemic, Unity is offering free
+                premium access to their Learn platform, which contains a significant amount of courses, tutorials and projects to utilize when learning game development as well VR 
+                development and other sub topics of game development. Head over to the Resources page of my website to find a link to Unity Learn. I will likely be spending a significant
+                amount of time taking courses and following tutorials utilizing Unity Learn.
+            </p>
+        </div>
+
+        <!--Email subscribe-->
+        <p>
+            If you would like to recieve email updates on my VR development progress, please submit your email address below!
+        </p>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+            <fieldset>
+            <legend>Email</legend>
+            <input type="text" name="email_address" size="30" maxlength="100" placeholder = "Email address">
+            <button id="Submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

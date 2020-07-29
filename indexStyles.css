@@ -1,0 +1,99 @@
+/* 
+Jay Pittenger
+5-1-2020
+CS290 - Project
+*/
+
+body {
+    background-color: #f5eaea;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+/* horizontal navgation bar styles */
+#nav {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4d4646;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav li {
+    display:inline;
+    margin: 14px;
+    color: #f5eaea;
+}
+#nav li a {
+    display: inline;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#nav li a:hover {
+    background-color:#5b5656;
+    color: #7fcd91;
+}
+.active {
+    background-color: #5b5656;
+    color: #7fcd91;
+}
+#home {
+    float: left;
+}
+#subpage {
+    margin: auto;
+    text-align: center;
+    padding: 14px;
+}
+#subpage li a {
+    color: #f5eaea;
+}
+
+/* title styles */
+#title {
+    color: #4d4646;
+    padding: 14px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    margin: 20px;
+    margin-top: 28px;
+    text-align: center;
+}
+#title i {
+    color: #7fcd91;
+}
+
+/* carousel styles */
+#carousel {
+    text-align: center;
+    color: #7fcd91;
+}
+#carousel img {
+    width: 50%;
+    height: auto;
+  }
+button {
+    color: #7fcd91;
+    border-color: #f5eaea;
+    background-color: #f5eaea;
+    font-size: 20px;
+    outline:none;
+}
+#caption {
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+}
+
+/* summary styles */
+#summary {
+    padding: 5px;
+}
+
